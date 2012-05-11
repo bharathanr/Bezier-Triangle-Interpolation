@@ -79,6 +79,7 @@
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="WindowData.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CS6680_Bezier_Triangle_Interpolation_2.cpp" />
