@@ -10,11 +10,11 @@ namespace BratsGLUtilities
 {
 	struct WindowData
 	{
-		int xRes, yRes;
+		int width, height;
 		std::string windowTitle;
 //Column No:																 80		
-		WindowData(int xRes = 800, int yRes = 600, std::string windowTitle):
-							xRes(xRes), yRes(yRes), windowTitle(windowTitle)
+		WindowData(std::string windowTitle, int width = 800, int height = 600):
+							width(width), height(height), windowTitle(windowTitle)
 		{
 		}
 	};
